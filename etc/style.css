@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+@-webkit-keyframes bgAnim {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@-moz-keyframes bgAnim {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@keyframes bgAnim {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+html {
+    height: 100%
+}
+
+body {
+    background: linear-gradient(239deg, #1c1b22, #2b2a33);
+    background-size: 400% 400%;
+    -webkit-animation: bgAnim 20s ease infinite;
+    -moz-animation: bgAnim 20s ease infinite;
+    animation: bgAnim 20s ease infinite;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: Poppins;
+    max-width: 50%
+}
+
+.header {
+    text-align: center
+}
+
+.desc {
+    text-align: center
+}
+
+.media {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+.media>* {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+img {
+    width: 40px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out
+}
+
+a:visited {
+    color: #127bdd
+}
