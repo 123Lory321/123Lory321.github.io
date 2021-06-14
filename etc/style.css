@@ -43,11 +43,12 @@
 }
 
 html {
-    height: 100%
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
-    background: linear-gradient(239deg, #1c1b22, #2b2a33);
+    background: linear-gradient(239deg, #1c1b22, #36353d);
     background-size: 400% 400%;
     -webkit-animation: bgAnim 20s ease infinite;
     -moz-animation: bgAnim 20s ease infinite;
@@ -88,6 +89,7 @@ main {
     margin-left: 5px;
     margin-right: 5px
 }
+
 
 img {
     width: 40px;
